@@ -1,1 +1,47 @@
-jkjkjb
+begin green fn
+
+print 'welcome to green fn'
+game = input 'to select money buckets enter (1), to select compound interest enter (2)'
+if game ==1:
+    return money buckets
+if game ==2:
+    return compound interest
+else:
+    print 'invalid selection'
+    game = input 'to select money buckets enter (1), to select compound interest enter (2)'
+
+end green fn
+
+begin money buckets()
+
+print 'welcome to money buckets where we will plan how you can live on 60% of your income and grow your wealth '
+income = input 'What is your income?'
+print 'your money buckets'
+blow= income *60/100
+print 'blow money is income *60/100'
+print 'blow*60/100 of your blow money is for daily expences'
+print 'blow*10/100 of your blow money is for splurging'
+print 'blow*10/100 of your blow money is for smile'
+print 'blow*20/100 of your blow money is for fire extinguisher'
+print 'grow money is income *20/100'
+print 'mojo money is income *20/100'
+
+end money buckets()
+
+begin compound interest()
+
+print 'The mircale of compound interest'
+
+age = int input 'at what age are you investing:'
+interest = int input 'what is your average annual interest return (e.g. 10%):
+added= int input 'amount you will invest every year:'
+
+bal= bal + bal * interest
+#investment projection table
+print "age interest balance"
+while age<61:
+      print '(age)(added) (bal)'
+      age = age +1
+
+end compound interest
+
